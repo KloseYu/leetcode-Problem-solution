@@ -46,3 +46,29 @@ class Solution {
         return true
     }
 }
+class Solution {
+    fun countValidWords(sentence: String): Int {
+        val n = sentence.length
+        var l  = 0
+        var r = 0
+        var res = 0
+        while (true) {
+            while (l < n && sentence[l] == ' ') {
+                l++
+            }
+            if (l >= n) {
+                break
+            }
+            r = l + 1
+            while (r < n && sentence[r] != ' ') {
+                r++
+            }
+            if (isValid(sentence.substring(l, r))) { // 判断根据空格分解出来的 token 是否有效
+                res++
+            }
+            l = r + 1
+        }
+        return res
+    }
+
+    
