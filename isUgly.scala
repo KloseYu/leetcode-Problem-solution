@@ -9,3 +9,13 @@ object Solution {
         ans == 1
     }
 }
+/*object Solution {
+    def isUgly(n: Int): Boolean =  n match  {
+            case 0 => false
+            case 1 => true
+            case _ if n % 2 == 0 => isUgly(n / 2)
+            case _ if n % 3 == 0 => isUgly(n / 3)
+            case _ if n % 5 == 0 => isUgly(n / 5)
+            case _ => false     
+    }
+}*/
