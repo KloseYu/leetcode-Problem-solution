@@ -2,7 +2,7 @@ class Solution {
     fun maxDepth(s: String): Int {
           var ans = 0
           var size = 0
-        for (i in 0 until s.count()) {
+        for (i in 0 until s.count()) //s.length{
             val ch = s[i]
             if (ch == '(') {
                 ++size
