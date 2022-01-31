@@ -45,9 +45,7 @@ class Solution {
         }
         return true
     }
-}
-class Solution {
-    fun countValidWords(sentence: String): Int {
+    /*fun countValidWords(sentence: String): Int {
         val n = sentence.length
         var l  = 0
         var r = 0
@@ -68,7 +66,9 @@ class Solution {
             }
             l = r + 1
         }
-        return res
-    }
+        return res*/
+}
+
+    
 
     
