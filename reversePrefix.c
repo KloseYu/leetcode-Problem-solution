@@ -1,0 +1,16 @@
+char * reversePrefix(char * word, char ch){
+    char *p2 = strchr(word, ch);
+        if (p2 != NULL) {
+            char *p1 = word;
+            while (p1 < p2) {
+                *p1 ^= *p2;
+                *p2 ^= *p1;
+                *p1 ^= *p2;
+                p1++;
+                p2--;
+            }
+        }
+        return word;
+}
+
+
