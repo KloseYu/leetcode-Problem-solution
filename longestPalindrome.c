@@ -49,12 +49,10 @@ char* longestPalindrome(char* s)
 	arr[i] = '\0';
 	return arr;
 }
-
 char main()
 {
 	char* a = (char*)malloc(sizeof(char));
 	char* pchar = NULL;
-
 	printf("任意输入一串不含空格的字符串:");
 	scanf_s("%s", a);
 	pchar = longestPalindrome(a);
