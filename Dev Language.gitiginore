@@ -1,0 +1,59 @@
+# C language
+*.o
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.out
+
+# Visual Studio Code
+.vscode/
+# Visual Studio
+.vs/
+
+# CLion
+.idea/
+cmake-build-debug/
+
+# Custom
+data/
+
+
+# Java
+*.class
+
+# Kotlin
+*.kt
+*.kts
+*.kotlin_module
+
+# Scala
+*.scala
+*.class
+*.cache
+
+# Rust
+target/
+Cargo.lock
+*.rs.bk
+
+# rr
+rr-trace/
+rr-cache/
+
+# VS 社区版
+.vs/
+*.suo
+*.user
+
+# Custom
+data/
+
+
+# IDEA
+.idea/
+*.iml
+
+
+ 
