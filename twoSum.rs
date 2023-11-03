@@ -1,8 +1,3 @@
-// `Point` 是 `(u8, u8)` 的新类型别名
-//type Point = (u8, u8);
-//let p: Point = (41, 68);
-type Solution = two_sum;
-
 impl Solution {
     pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
         for i in 0..nums.len() { // 枚举 i
